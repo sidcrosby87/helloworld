@@ -1,0 +1,1 @@
+c:\users\илья\documents\visual studio 2015\Projects\HelloWorld\HelloWorld\bin\Debug\HelloWorld.exe.config
