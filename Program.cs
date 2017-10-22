@@ -8,10 +8,18 @@ namespace HelloWorld
 {
     class Program
     {
+        static void Method(string arg)
+        {
+            for (int i = 0; i < 5; i++)
+            {
+                Console.WriteLine(arg);
+            }
+        }
+
         static void Main(string[] args)
         {
-            Console.BackgroundColor = ConsoleColor.Green;
-            Console.WriteLine("Hello world!");
+            string someString = "Hello world";
+            Method(someString);
         }
     }
 }
