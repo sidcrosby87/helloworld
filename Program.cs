@@ -18,7 +18,7 @@ namespace HelloWorld
 
         static void Main(string[] args)
         {
-            string someString = "Hello world";
+            string someString = "Hello world!";
             Method(someString);
         }
     }
